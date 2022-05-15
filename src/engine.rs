@@ -189,7 +189,7 @@ fn handle_chargeback(
 /// # Arguments
 /// 
 /// * `transaction` - the current transaction
-/// * `transaction_history` - history of all previous transaction_history, identified by client id and transaction id respectively
+/// * `transaction_history` - history of all previous transactions, identified by client id and transaction id respectively
 /// * `clients_state` - the current state of all clients, identified by client id
 pub fn handle_transaction(
     transaction: &Transaction,

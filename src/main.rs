@@ -16,7 +16,7 @@ fn main() -> Result<(), std::io::Error> {
             let handle = stdout.lock(); // better performance on single threaded program
             csv_writer(clients_state, handle)?
         }
-    }
+    }  
 
     Ok(())
 }
